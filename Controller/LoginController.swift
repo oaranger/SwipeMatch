@@ -1,9 +1,9 @@
 //
 //  LoginController.swift
-//  SwipeMatchFirestoreLBTA
+//  SwipeMatchFirestore
 //
-//  Created by Brian Voong on 11/26/18.
-//  Copyright © 2018 Brian Voong. All rights reserved.
+//  Created by Binh Huynh on 1/23/19.
+//  Copyright © 2019 Binh Huynh. All rights reserved.
 //
 
 import UIKit
@@ -24,6 +24,7 @@ class LoginController: UIViewController {
         tf.addTarget(self, action: #selector(handleTextChange), for: .editingChanged)
         return tf
     }()
+    
     let passwordTextField: CustomTextField = {
         let tf = CustomTextField(padding: 24, height: 50)
         tf.placeholder = "Enter password"
@@ -75,6 +76,7 @@ class LoginController: UIViewController {
             
             print("Logged in successfully")
             self.dismiss(animated: true, completion: {
+                print("dismiss already")
                 self.delegate?.didFinishLoggingIn()
             })
         }
@@ -114,7 +116,7 @@ class LoginController: UIViewController {
         }
         loginViewModel.isLoggingIn.bind { [unowned self] (isRegistering) in
             if isRegistering == true {
-                self.loginHUD.textLabel.text = "Register"
+                self.loginHUD.textLabel.text = "Loging in"
                 self.loginHUD.show(in: self.view)
             } else {
                 self.loginHUD.dismiss()

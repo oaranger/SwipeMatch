@@ -7,21 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343E2117223717BB0092D471 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E2116223717BB0092D471 /* MatchView.swift */; };
+		343E21192237EDC80092D471 /* SendMessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E21182237EDC80092D471 /* SendMessageButton.swift */; };
+		343E211B2237F1770092D471 /* KeepSwipingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E211A2237F1770092D471 /* KeepSwipingButton.swift */; };
+		345F9A70220EC9F0002A6241 /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F9A6F220EC9F0002A6241 /* UserDetailsController.swift */; };
+		345F9A7222111DE4002A6241 /* SwipingPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F9A7122111DE4002A6241 /* SwipingPhotosController.swift */; };
 		347A279621F8514200EF6F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A279521F8514200EF6F7E /* AppDelegate.swift */; };
-		347A279821F8514200EF6F7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A279721F8514200EF6F7E /* ViewController.swift */; };
+		347A279821F8514200EF6F7E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A279721F8514200EF6F7E /* HomeController.swift */; };
 		347A279B21F8514200EF6F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347A279921F8514200EF6F7E /* Main.storyboard */; };
 		347A279D21F8514400EF6F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347A279C21F8514400EF6F7E /* Assets.xcassets */; };
 		347A27A021F8514400EF6F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347A279E21F8514400EF6F7E /* LaunchScreen.storyboard */; };
+		347A27AB21F8547300EF6F7E /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27AA21F8547300EF6F7E /* Extension+UIView.swift */; };
+		347A27AF21F859AD00EF6F7E /* HomeBottomControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27AE21F859AD00EF6F7E /* HomeBottomControlStackView.swift */; };
+		347A27B121F85DED00EF6F7E /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27B021F85DED00EF6F7E /* TopNavigationStackView.swift */; };
+		347A27B321F870F900EF6F7E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27B221F870F900EF6F7E /* CardView.swift */; };
+		347A27B621F95D2700EF6F7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27B521F95D2700EF6F7E /* User.swift */; };
+		347A27BA21F96BA800EF6F7E /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27B921F96BA800EF6F7E /* CardViewModel.swift */; };
+		347A27BC21F987E600EF6F7E /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27BB21F987E600EF6F7E /* Advertiser.swift */; };
+		347A27BE21FBFD4E00EF6F7E /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27BD21FBFD4E00EF6F7E /* RegistrationController.swift */; };
+		347A27C021FC040C00EF6F7E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27BF21FC040C00EF6F7E /* CustomTextField.swift */; };
+		347A27C221FC5DBB00EF6F7E /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27C121FC5DBB00EF6F7E /* RegistrationViewModel.swift */; };
+		347A27C421FD615100EF6F7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 347A27C321FD615100EF6F7E /* GoogleService-Info.plist */; };
+		347A27C621FD77EF00EF6F7E /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27C521FD77EF00EF6F7E /* Bindable.swift */; };
+		347A27C82200515300EF6F7E /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27C72200515300EF6F7E /* SettingController.swift */; };
+		347A27CA2201CFEB00EF6F7E /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27C92201CFEB00EF6F7E /* SettingsCell.swift */; };
+		347A27CC22054D0500EF6F7E /* AgeRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27CB22054D0500EF6F7E /* AgeRangeCell.swift */; };
+		347A27CE2206F2D300EF6F7E /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27CD2206F2D300EF6F7E /* Firebase+Utils.swift */; };
+		347A27D12206FF0F00EF6F7E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27CF2206FF0E00EF6F7E /* LoginController.swift */; };
+		347A27D22206FF0F00EF6F7E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A27D02206FF0F00EF6F7E /* LoginViewModel.swift */; };
+		F4F53C85E3E94FCEC0303E50 /* Pods_SwipeMatchFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35517962C8E5D118B08EC6A /* Pods_SwipeMatchFirestore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EFFE3CD470BBA61C288706E /* Pods-SwipeMatchFirestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMatchFirestore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeMatchFirestore/Pods-SwipeMatchFirestore.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA7D87EDAA3DCCA2C95B2F5 /* Pods-SwipeMatchFirestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMatchFirestore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeMatchFirestore/Pods-SwipeMatchFirestore.release.xcconfig"; sourceTree = "<group>"; };
+		343E2116223717BB0092D471 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		343E21182237EDC80092D471 /* SendMessageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageButton.swift; sourceTree = "<group>"; };
+		343E211A2237F1770092D471 /* KeepSwipingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepSwipingButton.swift; sourceTree = "<group>"; };
+		345F9A6F220EC9F0002A6241 /* UserDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsController.swift; sourceTree = "<group>"; };
+		345F9A7122111DE4002A6241 /* SwipingPhotosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingPhotosController.swift; sourceTree = "<group>"; };
 		347A279221F8514200EF6F7E /* SwipeMatchFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		347A279521F8514200EF6F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		347A279721F8514200EF6F7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		347A279721F8514200EF6F7E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		347A279A21F8514200EF6F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		347A279C21F8514400EF6F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		347A279F21F8514400EF6F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		347A27A121F8514400EF6F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347A27AA21F8547300EF6F7E /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		347A27AE21F859AD00EF6F7E /* HomeBottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlStackView.swift; sourceTree = "<group>"; };
+		347A27B021F85DED00EF6F7E /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		347A27B221F870F900EF6F7E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		347A27B521F95D2700EF6F7E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		347A27B921F96BA800EF6F7E /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		347A27BB21F987E600EF6F7E /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		347A27BD21FBFD4E00EF6F7E /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		347A27BF21FC040C00EF6F7E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		347A27C121FC5DBB00EF6F7E /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		347A27C321FD615100EF6F7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		347A27C521FD77EF00EF6F7E /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		347A27C72200515300EF6F7E /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		347A27C92201CFEB00EF6F7E /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		347A27CB22054D0500EF6F7E /* AgeRangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeCell.swift; sourceTree = "<group>"; };
+		347A27CD2206F2D300EF6F7E /* Firebase+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Utils.swift"; sourceTree = "<group>"; };
+		347A27CF2206FF0E00EF6F7E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		347A27D02206FF0F00EF6F7E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C35517962C8E5D118B08EC6A /* Pods_SwipeMatchFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeMatchFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F53C85E3E94FCEC0303E50 /* Pods_SwipeMatchFirestore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		345F9A6E220EC9DF002A6241 /* User Detail */ = {
+			isa = PBXGroup;
+			children = (
+				345F9A6F220EC9F0002A6241 /* UserDetailsController.swift */,
+				345F9A7122111DE4002A6241 /* SwipingPhotosController.swift */,
+			);
+			path = "User Detail";
+			sourceTree = "<group>";
+		};
 		347A278921F8514200EF6F7E = {
 			isa = PBXGroup;
 			children = (
+				345F9A6E220EC9DF002A6241 /* User Detail */,
+				347A27B821F96B8B00EF6F7E /* ViewModel */,
+				347A27AD21F8598F00EF6F7E /* Views */,
+				347A27B421F95D0D00EF6F7E /* Model */,
+				347A27B721F96ACF00EF6F7E /* Controller */,
+				347A27A921F8545700EF6F7E /* Extension */,
 				347A279421F8514200EF6F7E /* SwipeMatchFirestore */,
 				347A279321F8514200EF6F7E /* Products */,
+				CAF96D259A45897249010B11 /* Pods */,
+				B34E8509FD4231E4A858BF91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +123,86 @@
 			isa = PBXGroup;
 			children = (
 				347A279521F8514200EF6F7E /* AppDelegate.swift */,
-				347A279721F8514200EF6F7E /* ViewController.swift */,
+				347A27C321FD615100EF6F7E /* GoogleService-Info.plist */,
 				347A279921F8514200EF6F7E /* Main.storyboard */,
 				347A279C21F8514400EF6F7E /* Assets.xcassets */,
 				347A279E21F8514400EF6F7E /* LaunchScreen.storyboard */,
 				347A27A121F8514400EF6F7E /* Info.plist */,
 			);
 			path = SwipeMatchFirestore;
+			sourceTree = "<group>";
+		};
+		347A27A921F8545700EF6F7E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				347A27AA21F8547300EF6F7E /* Extension+UIView.swift */,
+				347A27CD2206F2D300EF6F7E /* Firebase+Utils.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		347A27AD21F8598F00EF6F7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				347A27B221F870F900EF6F7E /* CardView.swift */,
+				347A27CB22054D0500EF6F7E /* AgeRangeCell.swift */,
+				347A27AE21F859AD00EF6F7E /* HomeBottomControlStackView.swift */,
+				347A27C92201CFEB00EF6F7E /* SettingsCell.swift */,
+				347A27B021F85DED00EF6F7E /* TopNavigationStackView.swift */,
+				347A27BF21FC040C00EF6F7E /* CustomTextField.swift */,
+				343E21182237EDC80092D471 /* SendMessageButton.swift */,
+				343E211A2237F1770092D471 /* KeepSwipingButton.swift */,
+				343E2116223717BB0092D471 /* MatchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		347A27B421F95D0D00EF6F7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				347A27B521F95D2700EF6F7E /* User.swift */,
+				347A27C521FD77EF00EF6F7E /* Bindable.swift */,
+				347A27BB21F987E600EF6F7E /* Advertiser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		347A27B721F96ACF00EF6F7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				347A279721F8514200EF6F7E /* HomeController.swift */,
+				347A27CF2206FF0E00EF6F7E /* LoginController.swift */,
+				347A27BD21FBFD4E00EF6F7E /* RegistrationController.swift */,
+				347A27C72200515300EF6F7E /* SettingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		347A27B821F96B8B00EF6F7E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				347A27C121FC5DBB00EF6F7E /* RegistrationViewModel.swift */,
+				347A27D02206FF0F00EF6F7E /* LoginViewModel.swift */,
+				347A27B921F96BA800EF6F7E /* CardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B34E8509FD4231E4A858BF91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35517962C8E5D118B08EC6A /* Pods_SwipeMatchFirestore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF96D259A45897249010B11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EFFE3CD470BBA61C288706E /* Pods-SwipeMatchFirestore.debug.xcconfig */,
+				2BA7D87EDAA3DCCA2C95B2F5 /* Pods-SwipeMatchFirestore.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 347A27A421F8514400EF6F7E /* Build configuration list for PBXNativeTarget "SwipeMatchFirestore" */;
 			buildPhases = (
+				D31A85DB11C3B0D447AD49CE /* [CP] Check Pods Manifest.lock */,
 				347A278E21F8514200EF6F7E /* Sources */,
 				347A278F21F8514200EF6F7E /* Frameworks */,
 				347A279021F8514200EF6F7E /* Resources */,
+				4162ED03AC098F3DFB2A99F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				347A27A021F8514400EF6F7E /* LaunchScreen.storyboard in Resources */,
+				347A27C421FD615100EF6F7E /* GoogleService-Info.plist in Resources */,
 				347A279D21F8514400EF6F7E /* Assets.xcassets in Resources */,
 				347A279B21F8514200EF6F7E /* Main.storyboard in Resources */,
 			);
@@ -130,13 +274,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4162ED03AC098F3DFB2A99F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwipeMatchFirestore/Pods-SwipeMatchFirestore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeMatchFirestore/Pods-SwipeMatchFirestore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31A85DB11C3B0D447AD49CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeMatchFirestore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		347A278E21F8514200EF6F7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				347A279821F8514200EF6F7E /* ViewController.swift in Sources */,
+				347A27C621FD77EF00EF6F7E /* Bindable.swift in Sources */,
+				347A279821F8514200EF6F7E /* HomeController.swift in Sources */,
+				347A27C221FC5DBB00EF6F7E /* RegistrationViewModel.swift in Sources */,
+				347A27C021FC040C00EF6F7E /* CustomTextField.swift in Sources */,
 				347A279621F8514200EF6F7E /* AppDelegate.swift in Sources */,
+				347A27BC21F987E600EF6F7E /* Advertiser.swift in Sources */,
+				347A27C82200515300EF6F7E /* SettingController.swift in Sources */,
+				345F9A70220EC9F0002A6241 /* UserDetailsController.swift in Sources */,
+				347A27CC22054D0500EF6F7E /* AgeRangeCell.swift in Sources */,
+				347A27AF21F859AD00EF6F7E /* HomeBottomControlStackView.swift in Sources */,
+				343E2117223717BB0092D471 /* MatchView.swift in Sources */,
+				347A27CE2206F2D300EF6F7E /* Firebase+Utils.swift in Sources */,
+				347A27AB21F8547300EF6F7E /* Extension+UIView.swift in Sources */,
+				347A27BA21F96BA800EF6F7E /* CardViewModel.swift in Sources */,
+				343E21192237EDC80092D471 /* SendMessageButton.swift in Sources */,
+				347A27B321F870F900EF6F7E /* CardView.swift in Sources */,
+				347A27D12206FF0F00EF6F7E /* LoginController.swift in Sources */,
+				347A27B121F85DED00EF6F7E /* TopNavigationStackView.swift in Sources */,
+				347A27BE21FBFD4E00EF6F7E /* RegistrationController.swift in Sources */,
+				347A27B621F95D2700EF6F7E /* User.swift in Sources */,
+				343E211B2237F1770092D471 /* KeepSwipingButton.swift in Sources */,
+				347A27D22206FF0F00EF6F7E /* LoginViewModel.swift in Sources */,
+				347A27CA2201CFEB00EF6F7E /* SettingsCell.swift in Sources */,
+				345F9A7222111DE4002A6241 /* SwipingPhotosController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +515,7 @@
 		};
 		347A27A521F8514400EF6F7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFFE3CD470BBA61C288706E /* Pods-SwipeMatchFirestore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +534,7 @@
 		};
 		347A27A621F8514400EF6F7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA7D87EDAA3DCCA2C95B2F5 /* Pods-SwipeMatchFirestore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

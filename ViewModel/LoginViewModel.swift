@@ -1,9 +1,9 @@
 //
 //  LoginViewModel.swift
-//  SwipeMatchFirestoreLBTA
+//  SwipeMatchFirestore
 //
-//  Created by Brian Voong on 11/26/18.
-//  Copyright © 2018 Brian Voong. All rights reserved.
+//  Created by Binh Huynh on 1/26/19.
+//  Copyright © 2019 Binh Huynh. All rights reserved.
 //
 
 import Foundation
@@ -17,7 +17,7 @@ class LoginViewModel {
     var email: String? { didSet { checkFormValidity() } }
     var password: String? { didSet { checkFormValidity() } }
     
-    fileprivate func checkFormValidity() {
+    func checkFormValidity() {
         let isValid = email?.isEmpty == false && password?.isEmpty == false
         isFormValid.value = isValid
     }
